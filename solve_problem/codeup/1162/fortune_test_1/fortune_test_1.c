@@ -1,14 +1,18 @@
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
 	int year, month, day;
 	scanf("%d %d %d", &year, &month, &day);
-	
-	if((year-month+day) % 10 == 0) {
-		printf("´ë¹Ú");
-	} else {
-		printf("±×·°Àú·°");
+
+	if ((year - month + day) % 10 == 0)
+	{
+		printf("ëŒ€ë°•");
 	}
-	
+	else
+	{
+		printf("ê·¸ëŸ­ì €ëŸ­");
+	}
+
 	return 0;
 }
