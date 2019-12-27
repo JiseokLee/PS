@@ -1,4 +1,0 @@
-
-num = input()
-
-print(num + '%')
